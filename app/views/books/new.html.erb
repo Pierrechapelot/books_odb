@@ -1,0 +1,11 @@
+<h1> Create a new book </h1>
+
+<%= form_with model: @book, local: true do |form| %>
+
+<p> 
+<%= form.label :title %>
+<%= form.text_field :title%>
+
+</p>
+
+<%= end %>
